@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    padding: 15px 0px;
+    margin: 0px 150px 0px 150px;
+    align-items: center;
+}
+.header .btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.header .btn button{
+    height: 35px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(204, 58, 5);
+    color: white;
+}
+.header .logo .sp1{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+}
+.header .logo .sp2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+
+.header2{
+    display: flex;
+    padding: 15px 0px;
+    margin: 0px 150px 0px 150px;
+    align-items: center;
+    background-color:rgb(2, 2, 49) ;
+}
+.header2 .search{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.header2 .nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 25px;
+}
+.header2 .nav ul li{
+    padding:10px 0px;
+    padding-left: 20px;
+}
+.header2 .nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif
+}.header2 .search input{
+    padding: 6px;
+    margin: 12px;
+    border-radius: 10px;
+}
+
+.header2 .nav ul li :hover{
+    color: rgb(184, 58, 12);
+    transition: .2s;
+}
+
+.content{
+    padding: 100px;
+    margin-left: 50px;
+    width: 300px;
+
+}
+.content .big{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    font-weight: bold;
+}
+.content .btn2 button{
+    background-color: orangered;
+    color: white;
+    padding: 12px 17px;
+    border-radius: 19px;
+    border: none;
+}
+#sec2{
+    width: 100%;
+    background-image: url(./assets/img/student.jpg);
+    background-size:  auto;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-left: 40px;
+    padding-top: 18px;
+    opacity: 92%;
+}
+.box1{
+    height: 260px;
+    width: 480px;
+    background-color: orangered;
+    text-align: center;
+}
+.box2{
+    height: 260px;
+    width: 480px;
+    background-color: rgb(0, 0, 53);
+    text-align: center;
+}
+.box3{
+    height: 260px;
+    width: 480px;
+    background-color: orangered;
+    text-align: center;
+}
+.box4{
+    height: 260px;
+    width: 480px;
+    background-color: rgb(2, 2, 49);
+    text-align: center;
+}
+#sec3{
+    display: flex;
+    color: white;
+}
